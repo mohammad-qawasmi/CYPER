@@ -1,3 +1,7 @@
+body{
+    height: 5000px;
+    font-family: var(--mainfont);
+}
 .cyber-navbar .nav-item {
    margin-right: 52px;
    
@@ -27,5 +31,59 @@
 }
 .cyber-navbar form input::placeholder {
     color: #989898;
+    
+}
+
+.hero {
+    background-color: var(--maincolor);
+    
+  
+
+}
+.left-side {
+     position: absolute;
+   bottom:160px ;
+    justify-content: center;
+    align-items: center;
+}
+.left-side h2 {
+    font-family:var(--main-font);
+    font-size: 25px;
+    color: #909090;
+}
+.hero-iphone{
+    font-family:var(--main-font);
+    font-weight: lighter;
+    font-size: 96px;
+    color: #FFFFFF;
+}
+ .hero-pro{
+    font-family:var(--main-font);
+    
+    font-size: 96px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    font-weight:bold;
+}
+.left-side p {
+    font-family:var(--main-font);
+     color: #909090;
+     font-size: 18px;
+}
+.hero .shop-btn {
+    
+    border-width: .5px;
+    padding: 16px 56px;
+    color: white;
+    font-family: var(--main-font);
+    border-color: #FFFFFF;
+}
+.right-side img {
+    width: 406px;
+    height: 632px;
+    position: absolute;
+    right: 160px;
+    bottom: 0;
+    padding-top: 100px;
     
 }
