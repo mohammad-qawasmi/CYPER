@@ -1,16 +1,20 @@
-body{
+body {
     height: 5000px;
     font-family: var(--mainfont);
 }
+
+/* start navbar section */
 .cyber-navbar .nav-item {
-   margin-right: 52px;
-   
+    margin-right: 52px;
+
 }
+
 .cyber-navbar-sub {
     padding-right: 52px;
 }
+
 .cyber-navbar form {
-    width:372px;
+    width: 372px;
     height: 56px;
     margin-right: 52px;
     position: relative;
@@ -18,66 +22,78 @@ body{
     align-items: center;
     border: none;
     outline: none;
-    
+
 }
+
 .cyber-navbar form span {
     position: absolute;
     padding-left: 1rem;
 }
+
 .cyber-navbar form input {
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: #F5F5F5;
 }
+
 .cyber-navbar form input::placeholder {
     color: #989898;
-    
+
 }
 
+/* end navbar section */
+
+/* star hero section */
 .hero {
     background-color: var(--maincolor);
-    
-  
+
 
 }
+
 .left-side {
-     position: absolute;
-   bottom:160px ;
+    position: absolute;
+    bottom: 160px;
     justify-content: center;
     align-items: center;
 }
+
 .left-side h2 {
-    font-family:var(--main-font);
+    font-family: var(--main-font);
     font-size: 25px;
     color: #909090;
 }
-.hero-iphone{
-    font-family:var(--main-font);
+
+.hero-iphone {
+    font-family: var(--main-font);
     font-weight: lighter;
     font-size: 96px;
     color: #FFFFFF;
 }
- .hero-pro{
-    font-family:var(--main-font);
-    
+
+.hero-pro {
+    font-family: var(--main-font);
+
     font-size: 96px;
     color: #FFFFFF;
     padding-left: 30px;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 .left-side p {
-    font-family:var(--main-font);
-     color: #909090;
-     font-size: 18px;
+    font-family: var(--main-font);
+    color: #909090;
+    font-size: 18px;
 }
+
 .hero .shop-btn {
-    
+
     border-width: .5px;
     padding: 16px 56px;
     color: white;
     font-family: var(--main-font);
     border-color: #FFFFFF;
 }
+
 .right-side img {
     width: 406px;
     height: 632px;
@@ -85,5 +101,18 @@ body{
     right: 160px;
     bottom: 0;
     padding-top: 100px;
-    
+
 }
+
+/* end hero section */
+
+/* start footer section */
+.footer {
+    background-color: var(--maincolor);
+}
+   
+
+.left-footer {
+    background-color: black;
+}
+/* end footer section */
