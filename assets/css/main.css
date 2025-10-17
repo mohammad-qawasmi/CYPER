@@ -1,0 +1,31 @@
+.cyber-navbar .nav-item {
+   margin-right: 52px;
+   
+}
+.cyber-navbar-sub {
+    padding-right: 52px;
+}
+.cyber-navbar form {
+    width:372px;
+    height: 56px;
+    margin-right: 52px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    
+}
+.cyber-navbar form span {
+    position: absolute;
+    padding-left: 1rem;
+}
+.cyber-navbar form input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #F5F5F5;
+}
+.cyber-navbar form input::placeholder {
+    color: #989898;
+    
+}
