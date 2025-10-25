@@ -1,6 +1,7 @@
 body {
     height: 5000px;
-    font-family: var(--mainfont);
+    font-family:"Inter";
+    
 }
 
 /* start navbar section */
@@ -110,8 +111,72 @@ body {
 .banners {
    display: flex;
 }
+.banners p {
+    font-size: 14px;
+    color: #909090;
+
+}
+.banner-palystation h2 {
+    font-size: 49px;
+   
+    font-family:var(--main-font);
+}
+.banner-palystation p {
+    
+    font-family: var(--main-font);
+    
+    line-height:24px;
+     padding-right:1% ;
+}
+.airbods {
+    padding-left: 48px;
+    
+}
+.left-bottom .airbods h2 {
+    font-size: 29px;
+    font-weight:lighter;
+
+}
+.left-bottom .airbods h3{
+   font-size: 29px;
+    
+}
+.vision {
+padding-left: 152px;
+}
+.vision h2 {
+    color: white;
+     font-size: 29px;
+    font-weight:lighter;
+   
+}
+.vision span {
+    font-weight: bold;
+}
+.vision-img {
+ position: absolute;
+ left: 0;
+top: 15%;
+
+  
+}
 .Big-Banner{
 background-color: #EDEDED;
+}
+.left-big {
+    padding-left: 56px;
+}
+.left-big .mac {
+    
+    font-weight: lighter;
+}
+.left-big h2 {
+    font-size: 64px;
+    line-height: 70%;
+    padding-bottom: 16px;
+}
+.left-big button{
+    
 }
 .Left-Banners .top {
 display: flex;

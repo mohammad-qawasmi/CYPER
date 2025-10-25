@@ -5,3 +5,18 @@
     --main-font:"Inter";
     
 }
+.shop-btn {
+
+    border-width: .5px;
+    padding: 16px 56px;
+    color: white;
+    font-family: var(--main-font);
+    border-color: #FFFFFF;
+}
+.shop-btn-dark {
+    border-width: .5px;
+    padding: 16px 56px;
+    color: black;
+    font-family: var(--main-font);
+    border-color: black;
+}
