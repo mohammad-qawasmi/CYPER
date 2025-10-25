@@ -175,9 +175,7 @@ background-color: #EDEDED;
     line-height: 70%;
     padding-bottom: 16px;
 }
-.left-big button{
-    
-}
+
 .Left-Banners .top {
 display: flex;
 align-items: center;
@@ -191,6 +189,25 @@ background-color:#EDEDED ;
 
 
 /* end banner section*/
+
+/*Category*/
+.Category {
+    margin-top: 80px;
+}
+.category-title {
+    padding-bottom: 32px;
+}
+.Category h2 {
+    font-size: 24px;
+}
+.category-items img {
+    width:160px ;
+    height:128px ;
+}
+.arrow a {
+    cursor: pointer;
+}
+/* end of Category*/
 
 /* start footer section */
 .footer {
